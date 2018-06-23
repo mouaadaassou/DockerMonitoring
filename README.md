@@ -24,3 +24,22 @@ Now you can ssh into each of the instances using the command :
 ```
 docker-machine ssh Node-Name
 ```
+
+After clonning the prject inside one of the node, you can just run the follwing command : 
+```
+docker stack deploy -c docker-compose.yml DockerMonitoring
+```
+***
+you can just visit all the containers :
+***
+http://node-ip:9090 ---> for prometheus
+***
+http://node-ip:8080 ---> for cAdvisor
+***
+http://node-ip:9100 ---> for node-exporter
+***
+http://node-ip:9090 ---> for Grafana
+***
+
+
+then we have to configure the grafana datasource : 
