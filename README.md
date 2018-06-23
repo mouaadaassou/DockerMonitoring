@@ -19,3 +19,9 @@ this command will create 3 boot2docker machines using the docker-machine utility
 1. Node1 --> Manager Node
 2. Node2 --> Worker Node
 3. Node3 --> Worker Node
+
+Now you can ssh into each of the instances using the command : 
+```
+docker-machine ssh Node-Name
+```
+
