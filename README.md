@@ -44,5 +44,6 @@ http://node-ip:9090 ---> for Grafana
 
 then we have to configure the grafana datasource : 
 
-Inline-style: 
 ![alt text](https://github.com/mouaadaassou/DockerMonitoring/blob/master/Screenshot%20from%202018-06-23%2018-21-05.png "GrafanaDataSource")
+
+Now we will install the Docker and system monitoring by Thibaut Mottet 
