@@ -46,4 +46,5 @@ then we have to configure the grafana datasource :
 
 ![alt text](https://github.com/mouaadaassou/DockerMonitoring/blob/master/Screenshot%20from%202018-06-23%2018-21-05.png "GrafanaDataSource")
 
-Now we will install the Docker and system monitoring by Thibaut Mottet 
+Now we will install the Docker and system monitoring by Thibaut Mottet : 
+![alt text](https://github.com/mouaadaassou/DockerMonitoring/blob/master/Screenshot%20from%202018-06-23%2018-27-38.png "Docker Container Dashboard")
