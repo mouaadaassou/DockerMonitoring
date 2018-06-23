@@ -15,3 +15,7 @@ After installing all the necessary tools, and clonning the projectin your locale
 ./docker_machine_creation.sh 3
 ```
 
+this command will create 3 instances of machines using the docker-machine utility, and they are named as follow : 
+1. Node1 --> Manager Node
+2. Node2 --> Worker Node
+3. Node3 --> Worker Node
