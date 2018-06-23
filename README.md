@@ -43,3 +43,6 @@ http://node-ip:9090 ---> for Grafana
 
 
 then we have to configure the grafana datasource : 
+
+Inline-style: 
+![alt text]( "Grafana DataSource")
