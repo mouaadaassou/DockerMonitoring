@@ -24,4 +24,3 @@ Now you can ssh into each of the instances using the command :
 ```
 docker-machine ssh Node-Name
 ```
-
