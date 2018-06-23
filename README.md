@@ -2,7 +2,7 @@
 you wanna try monitoring Docker containers using Prometheus &amp; Grafana. this repo contains all the necessary 
 config files to collect data from Docker containers. Here everything is a container ;) 
 
-this guid go throu the process of collecting data from docker machines using Prometheus and visualizing them using Grafana
+this guid go through the process of collecting data from docker machines using Prometheus and visualizing them using Grafana
 
 ### Pre-requisite
 1. Docker Engine installed
