@@ -28,6 +28,14 @@ services:
     ports:
       - '8080:8080'
 
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.3.0
+    ports:
+      - "9900:9200"
+      - "9800:9300"
+    environment:
+      - discovery.type=single-node
+
   grafana:
     image: grafana/grafana
     environment:

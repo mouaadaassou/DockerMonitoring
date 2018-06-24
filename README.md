@@ -25,6 +25,20 @@ Now you can ssh into each of the instances using the command :
 docker-machine ssh Node-Name
 ```
 
+to configure the docker swarm run the following commands : 
+
+```
+docker swarm init --advertise-addr your-ip-addr
+```
+
+now we gonna generate the join token : 
+```
+docker swarm join-token worker
+```
+
+copy the result of the command, and now past it in each node - i mean here Node2 & Node3 - :
+
+
 After clonning the prject inside one of the node, you can just run the follwing command : 
 ```
 docker stack deploy -c docker-compose.yml DockerMonitoring
